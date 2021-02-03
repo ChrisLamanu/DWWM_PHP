@@ -1,0 +1,30 @@
+#wpwrap {
+    display: flex;
+    flex-direction: column;
+}
+#wpcontent {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+#wpbody {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+#wpbody-content {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+#wpcitrus-row {
+    flex-grow: 1;
+    padding-right: 20px;
+}
+#wpcitrus-bg {
+    /* height: -webkit-fill-available; */
+    background-image: url("../img/kaouther-djouada-xMsrnA0C4sg-unsplash.jpg");
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+}
