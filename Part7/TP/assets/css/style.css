@@ -1,0 +1,7 @@
+body {
+    min-height: 100vh;
+    height: 1vh; /* used just to init the min height */
+}
+#firstRow {
+    min-height: 100%;
+}

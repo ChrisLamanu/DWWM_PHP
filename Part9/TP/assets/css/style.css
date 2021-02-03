@@ -1,0 +1,137 @@
+@font-face {
+    font-family: "Heroes Legend";
+    src: url("../font/HeroesLegend.ttf");
+}
+@font-face {
+    font-family: "Super Hero";
+    src: url("../font/SuperHero.ttf");
+}
+body {
+    min-height: 100vh;
+    background-color: var(--custom-color-dark);
+    margin: 0 !important;
+    font-family: "Heroes Legend";
+    font-size: .6rem;
+}
+:root {
+    --custom-color-gold: #ffc107 !important;
+    --custom-color-gold-darker: #ffc1078c !important;
+    --custom-color-dark: #141619 !important;
+    --custom-color-gray: gray !important;
+    --custom-color-red:#cb3431 !important;
+    --custom-color-red-darker: #cb343175 !important;
+}
+#rowDays {
+    /* max-width: 50vh; */
+    color: var(--custom-color-gold);
+}
+.borderDays { 
+    border-right: 1px solid;
+    border-left: 1px solid;
+    border-top: 2px solid;
+    border-bottom: 1px solid;
+    border-color: var(--custom-color-gray);
+}
+.cusCol {
+    display: flex;
+    flex-direction: column;
+    padding: 0 !important;
+    border: 1px solid var(--custom-color-gray);
+    flex: unset;
+}
+.bg-red:hover {
+    background-color: var(--custom-color-red-darker);
+}
+.bg-gold:hover {
+    background-color: var(--custom-color-gold-darker);
+}
+.dateBadge {
+    width: fit-content;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: .25rem;
+    padding-bottom: .25rem;
+    background-color: var(--custom-color-dark);
+    line-height: 1rem;
+    margin: .25rem;
+    border-radius: .25rem;
+}
+.dateBadge p {
+    color: var(--custom-color-gold);
+    margin: 0;
+    /* font-weight: 900; */
+}
+#actualDayText {
+    font-family: "Super Hero";
+    flex-grow: 1;
+    line-height: 100%;
+    /* font-size: 137px; */
+}
+
+#imgHero {
+    /* height: 0;
+    width: 100%; */
+    background-image: url("../img/2931094.jpg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* padding-top: 62.5%; */
+    position: relative;
+}
+#formHero {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    justify-content: center;
+}
+#selectMonth {
+    background-color: var(--custom-color-red);
+    color: var(--custom-color-gold);
+    border: 1px solid var(--custom-color-gray);
+    box-shadow: none;
+}
+#selectYear {
+    background-color: var(--custom-color-gold);
+    color: var(--custom-color-red);
+    border: 1px solid var(--custom-color-gray);
+    box-shadow: none;
+}
+#submitBtn:hover {
+    background-color: var(--custom-color-gold-darker);
+    color: var(--custom-color-dark);
+}
+/* #selectYear::selection {
+    box-shadow: 0 0 6px #ffc107;
+} */
+
+.bg-gold {
+    background-color: var(--custom-color-gold);
+}
+.bg-gold-darker {
+    background-color: var(--custom-color-gold-darker);
+}
+.bg-red {
+    background-color: var(--custom-color-red);
+}
+.bg-red-darker {
+    background-color: var(--custom-color-red-darker);
+}
+.bg-darker {
+    background-color: var(--custom-color-dark);
+}
+.text-darker {
+    color: var(--custom-color-dark);
+}
+.text-gold {
+    color: var(--custom-color-gold);
+}
+.text-red {
+    color: var(--custom-color-red);
+}
+.hidden {
+    visibility: hidden;
+}
